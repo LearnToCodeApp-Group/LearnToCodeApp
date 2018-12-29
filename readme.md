@@ -3,7 +3,7 @@
 
 **Summary:**
 
-Office administration software with the fuction to organice business idea.
+Office administration software with the function to organize business ideas.
 
 * Client files
 * Project
