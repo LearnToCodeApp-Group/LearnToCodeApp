@@ -31,10 +31,12 @@ To speak to existing collaborators, please join the Discord conversation: https:
 * HMTL5 and CSS3
 * Git
 * Github
+* Sphinx documentation module
+* Readthedocs
 
 **Contributing**
 
-For technical details, please refer to the Wiki. Before doing so, we recommend you read our Code of Conduct and make sure you agree with the terms of our licence.
+For technical details, please refer to our documentation: https://learntocodeapp.readthedocs.io/en/latest/. Before doing so, we recommend you read our Code of Conduct and make sure you agree with the terms of our licence.
 
 If you would like to inform us of a problem, please go to the "issues" tab and use the template to submit a bug report.
 
