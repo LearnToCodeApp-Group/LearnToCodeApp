@@ -36,6 +36,10 @@ To speak to existing collaborators, please join the Discord conversation: https:
 
 For technical details, please refer to the Wiki. Before doing so, we recommend you read our Code of Conduct and make sure you agree with the terms of our licence.
 
+If you would like to inform us of a problem, please go to the "issues" tab and use the template to submit a bug report.
+
+If you would like to ask us to add a feature, change how the app works or give additional options, please go to the "issues" tab and use the template to request a feature.
+
 **Collaborators**
 
 *Will Mason (Django Will)
