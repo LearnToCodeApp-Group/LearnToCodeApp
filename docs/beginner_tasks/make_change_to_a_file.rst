@@ -1,4 +1,5 @@
-H1 --Submit a change to the repository.
+Submit a change to the repository
+*********************************
 
 Most contributions you make to the project will involve making a change to the code. The changes will not be automatically incorporated within the shared version of the project (the "Master" branch).
 

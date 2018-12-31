@@ -1,4 +1,5 @@
-h1 -- About - a summary of the project
+About - a summary of the project
+********************************
 
 The LearnToCodeApp project has been created to provide a focus for learning programming and working collaboratively. Everyone is encouraged to join in, whatever the level of their experience.
 

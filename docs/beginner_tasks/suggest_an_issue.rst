@@ -1,4 +1,5 @@
-h1 -- Suggest an Issue
+Suggest an Issue
+****************
 
 Github allows collaborators and third parties to suggest improvements to a project. Improvements might be:
 

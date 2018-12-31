@@ -1,4 +1,5 @@
-h1 -- Make a change to the documentation
+Make a change to the documentation
+**********************************
 
 We use Python's Sphinx module to help create documentation.
 

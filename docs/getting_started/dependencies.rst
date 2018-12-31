@@ -1,4 +1,5 @@
-h1 -- Dependencies, tools and technologies we use
+Dependencies, tools and technologies we use
+*******************************************
 
 h2 -- The community
 
