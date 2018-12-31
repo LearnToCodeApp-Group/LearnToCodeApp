@@ -45,6 +45,7 @@ If you would like to ask us to add a feature, change how the app works or give a
 **Collaborators**
 
 *Will Mason (Django Will)
+*sangar-happy (maRIne)
 
 **Licence**
 
