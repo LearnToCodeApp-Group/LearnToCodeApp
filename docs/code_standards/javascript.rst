@@ -1,0 +1,2 @@
+Javascript Aims and Standards
+*****************************
