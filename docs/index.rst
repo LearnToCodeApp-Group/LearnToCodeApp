@@ -20,6 +20,8 @@ Welcome to LearnToCodeApp's documentation!
    beginner_tasks/suggest_an_issue
    
    intermediate_tasks/update_readthedocs_files
+   
+   code_standards/*
 
 
 Welcome to the LearnToCodeApp documentation. Please read the "about" section or our Github "readme" for more information.
