@@ -8,20 +8,21 @@ Welcome to LearnToCodeApp's documentation!
 
 .. toctree::
    :maxdepth: 4
+   :glob:
+   :numbered:
    :caption: Contents:
    
-   getting_started/about
-   getting_started/contributors
-   getting_started/dependencies
-   getting_started/jargon
-   getting_started/licence
+   getting_started/*
    
-   beginner_tasks/make_change_to_a_file
-   beginner_tasks/suggest_an_issue
+   beginner_tasks/*
    
-   intermediate_tasks/update_readthedocs_files
+   intermediate_tasks/*
    
    code_standards/*
+   
+   specifications/*
+   
+   
 
 
 Welcome to the LearnToCodeApp documentation. Please read the "about" section or our Github "readme" for more information.

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>4. How to Contribute &#8212; LearnToCodeApp  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="5. How to Review a Pull Request" href="how_to_review_a_pull_request.html" />
+    <link rel="prev" title="3. Dependencies, tools and technologies we use" href="dependencies.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="how-to-contribute">
+<h1>4. How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permalink to this headline">¶</a></h1>
+<p>h2 – How the work will be divided</p>
+<p>h3 – The project overall</p>
+<p>The project will comprise of one core application - a primary module - which can be supplemented by additional apps.</p>
+<p>The Core App should work independently of any additional modules. The additional modules will add functionality and should work independently of all other apps except the Core App.</p>
+<p>The additional modules may duplicate functionality or achieve the same functionality in a different way. For example:</p>
+<ul class="simple">
+<li>A module which retrieves information from an outside source may be duplicated by another module which obtains the same information from a different source. Users should be able to choose one or other of the modules, depending on their preference and needs.</li>
+<li>A module may be written to achieve a function in Windows. The module may be ‘forked’ to do the same thing on a Gnu/Linux distribution.</li>
+</ul>
+<p>Initially, we will focus on the Core App. Eventually, we hope contributors will be able to work on separate, compatible apps. When we are at that stage, we will decide whether those apps need their separate repository or can be integrated into the main one.</p>
+<p>h3 – The Core App</p>
+<p>Development of the Core App will be divided into the following “work streams”:</p>
+<p><strong>Markup</strong>: This will focus on creating the HTML and CSS for the user interface.</p>
+<p><strong>Javascript</strong>: This will focus on adding any functionality to the user interface which is strictly not possible using HTML and CSS.</p>
+<p><strong>Django / Database</strong>: This will focus on two things:</p>
+<ul class="simple">
+<li>The Django models required to create the database.</li>
+<li>The structural and administrative elements of the Django framework.</li>
+</ul>
+<p><strong>Python3</strong>: This will focus on server-side scripts and Python functionality.</p>
+<p><strong>Documentation</strong>: This will focus on keeping the documentation up-to-date and easy to understand.</p>
+<p><strong>Security</strong>: This will look at every area of the application to try to improve its security.</p>
+<p>The Core App will have two main branches: <em>Master</em> and <em>Development</em>. Pull Requests should be made to the Development branch. Only once the admins are sure the development branch is in a stable state will the Development branch be merged into the Master branch - this will happen periodically.</p>
+<p>h2 – How to claim tasks and contribute code</p>
+<p><strong>How to claim tasks</strong></p>
+<p>The people leading the work streams will agree with the admins the specification for their stream. They will then divide up the work and submit an ‘Issue’ on Github.</p>
+<p>Issues will be added to the Projects page for that work stream. Each work stream will have the following columns:</p>
+<ul class="simple">
+<li>“Beginner’s Tasks”</li>
+<li>“Intermediate Tasks”</li>
+<li>“Claimed Tasks”</li>
+<li>“Completed Tasks/Please Test”.</li>
+<li>“Approved/closed tasks”.</li>
+</ul>
+<p>If you would like to contribute to the project, please check the work streams for tasks you wish to tackle. Once you have chosen, please move the task to the “claimed” column. Please only claim tasks if you believe you have a reasonable chance of completing them within a week. It does not matter if it takes a little bit longer but, in fairness to other collaborators, you should not “reserve” a task that you like the look of.</p>
+<p>If there are no tasks you think are suitable, please consider doing one of the following:</p>
+<ul class="simple">
+<li>Check the “Beginner’s Tasks” or “Intermediate Tasks” pages of the documentation. We will aim to give examples of things you can do to get a feel for the project.</li>
+<li>Review and comment on pull requests or Issues. Pull requests should relate to an Issue that has been raised. You can check the specification for the Issue and compare it to the Pull Request. Pull Requests relating to your preferred work stream will be listed in the “Please Test” column. Please refer to the “How to Review a Pull Request” page.</li>
+<li>Review/test existing code. This is an educational project so it is unlikely that all code will be perfect. In addition, the comments in the code may not be complete and/or may be unclear. You can suggest changes to existing code or the comments by submitting an Issue.</li>
+<li>Suggest functionality. If you have experience of working in a firm and/or using similar software, you might be able to suggest functionality, either for the Core App or for a new module. This should be done by submitting an Issue.</li>
+</ul>
+<p><strong>How to contribute code</strong></p>
+<p>Once you have claimed a task, please follow this workflow:</p>
+<ol class="arabic simple">
+<li><em>Create a branch of the development branch</em>. If submitted by an admin, the Issue should have a brief title. Please use this title as the name of the branch, so others can easily find it.</li>
+<li><em>Clone the branch</em>. You will need to clone the branch to your own machine in order to work on it.</li>
+<li><em>Write the code</em>.</li>
+<li><em>Test</em>. Please do your best to test that the code works. We will try to prepare guides about how to do this but in the meantime, you should be able to find information online. You will, for example, want to test markup using more than one brower and may need to test it using older versions of those browers.</li>
+<li><em>Commit</em>. Commit the code to your branch.</li>
+<li><em>Create a pull request</em>. Create a request to merge the changes into the <em>development</em> branch. Please then remember to move the</li>
+<li><em>Deal with any comments on the pull request</em>. Once you have submitted the Pull Request, you should check to see whether it receives any comments or change requests. Pull Requests will not be merged into the code until these are responded to or dealt with.</li>
+<li><em>Close the branch</em>. Your task-specific branch should only last as long as it takes to deal with the task.</li>
+</ol>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">LearnToCodeApp</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.html">1. About - a summary of the project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html">2. Contributors to the project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">3. Dependencies, tools and technologies we use</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. How to Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how_to_review_a_pull_request.html">5. How to Review a Pull Request</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jargon.html">6. Jargon list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licence.html">7. Licence for use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/make_change_to_a_file.html">8. Submit a change to the repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/suggest_an_issue.html">9. Suggest an Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intermediate_tasks/update_readthedocs_files.html">10. Make a change to the documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/javascript.html">11. Javascript Aims and Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/markup.html">12. Markup Aims and Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/python.html">13. Python Aims and Standards</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="dependencies.html" title="previous chapter">3. Dependencies, tools and technologies we use</a></li>
+      <li>Next: <a href="how_to_review_a_pull_request.html" title="next chapter">5. How to Review a Pull Request</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Will Mason (DjangoWill).
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/getting_started/how_to_contribute.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
