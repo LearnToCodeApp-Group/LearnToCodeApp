@@ -14,7 +14,21 @@ Welcome to LearnToCodeApp's documentation!
    :numbered:
    :caption: Table of Contents:
    
-   index_files/*
+ 
+   getting_started/*
+
+   
+   beginner_tasks/*
+   
+   
+   intermediate_tasks/*
+   
+   
+   code_standards/*
+   
+   
+   specifications/*
+   
 
 
 Welcome to the LearnToCodeApp documentation. Please read the "about" section or our Github "readme" for more information.
