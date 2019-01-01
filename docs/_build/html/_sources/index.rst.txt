@@ -6,15 +6,17 @@
 Welcome to LearnToCodeApp's documentation!
 ==========================================
 
+.. this is essentially the index for the documentation. All pages must be included here if they are to show up in the documentation
 .. toctree::
-   :maxdepth: 4
+   :name: mastertoctree
+   :maxdepth: 3
    :glob:
    :numbered:
-   :caption: Contents:
+   :caption: Table of Contents:
    
    getting_started/*
    
-   beginner_tasks/*
+   beginner_tasks/index
    
    intermediate_tasks/*
    

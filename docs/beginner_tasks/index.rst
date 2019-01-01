@@ -3,26 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LearnToCodeApp's documentation!
+Beginner Tasks
 ==========================================
 
 .. this is essentially the index for the documentation. All pages must be included here if they are to show up in the documentation
 .. toctree::
-   :name: mastertoctree
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :numbered:
-   :caption: Table of Contents:
+   :caption: Chapter Contents:
    
-   getting_started/*
-   
-   beginner_tasks/index
-   
-   intermediate_tasks/*
-   
-   code_standards/*
-   
-   specifications/*
+   /*
    
    
 
