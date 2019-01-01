@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Beginner Tasks
-==========================================
+Module Specifications
+=====================
 
 .. this is essentially the index for the documentation. All pages must be included here if they are to show up in the documentation
 .. toctree::
@@ -13,11 +13,7 @@ Beginner Tasks
    :numbered:
    :caption: Chapter Contents:
    
-   *
-   
-   :hidden:
-   
-   self
+   specifications/*
    
    
 

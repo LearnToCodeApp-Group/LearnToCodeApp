@@ -1,0 +1,29 @@
+.. LearnToCodeApp documentation master file, created by
+   sphinx-quickstart on Mon Dec 31 10:07:12 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Beginner Tasks
+==========================================
+
+.. this is essentially the index for the documentation. All pages must be included here if they are to show up in the documentation
+.. toctree::
+   :maxdepth: 4
+   :glob:
+   :numbered:
+   :caption: Chapter Contents:
+   
+   beginner_tasks/*
+
+   
+   
+
+
+Welcome to the LearnToCodeApp documentation. Please read the "about" section or our Github "readme" for more information.
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

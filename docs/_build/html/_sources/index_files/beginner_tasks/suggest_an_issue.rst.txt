@@ -1,0 +1,18 @@
+Suggest an Issue
+****************
+
+Github allows collaborators and third parties to suggest improvements to a project. Improvements might be:
+
+    + Something the software does that it should not or, conversely, that it does not do but it should (a bug)
+    + Something the software does not do but could be included (an improvement or "feature request")
+    + A piece of code which is not explained well enough in the documentation.
+
+Suggesting an improvement is quite a simple way of getting involved.
+
+First, you will need to check the Issues page on Github to check whether the issue has already been raised.
+
+Then, you will need to choose the most appropriate template for your issue: A 'bug report' or 'feature request'.
+
+Use the template to describe the issue.
+
+Lastly, submit the issue.
