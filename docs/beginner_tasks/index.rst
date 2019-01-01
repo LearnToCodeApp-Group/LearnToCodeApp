@@ -13,7 +13,11 @@ Beginner Tasks
    :numbered:
    :caption: Chapter Contents:
    
-   /*
+   *
+   
+   :hidden:
+   
+   self
    
    
 
