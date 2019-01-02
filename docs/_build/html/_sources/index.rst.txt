@@ -13,19 +13,15 @@ Welcome to LearnToCodeApp's documentation!
    :glob:
    :numbered:
    :caption: Table of Contents:
-   
  
    getting_started/*
 
-   
    beginner_tasks/*
-   
-   
+
    intermediate_tasks/*
-   
+
    
    code_standards/*
-   
    
    specifications/*
    

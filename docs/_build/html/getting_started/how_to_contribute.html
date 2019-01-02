@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="5. How to Review a Pull Request" href="how_to_review_a_pull_request.html" />
+    <link rel="next" title="6. How to Review a Pull Request" href="how_to_review_a_pull_request.html" />
     <link rel="prev" title="3. Dependencies, tools and technologies we use" href="dependencies.html" /> 
 
   
@@ -83,17 +83,25 @@
 <li class="toctree-l1"><a class="reference internal" href="about.html">1. About - a summary of the project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributors.html">2. Contributors to the project</a></li>
 <li class="toctree-l1"><a class="reference internal" href="dependencies.html">3. Dependencies, tools and technologies we use</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">4. How to Contribute</a></li>
-<li class="toctree-l1"><a class="reference internal" href="how_to_review_a_pull_request.html">5. How to Review a Pull Request</a></li>
-<li class="toctree-l1"><a class="reference internal" href="jargon.html">6. Jargon list</a></li>
-<li class="toctree-l1"><a class="reference internal" href="licence.html">7. Licence for use</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/make_change_to_a_file.html">8. Submit a change to the repository</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/suggest_an_issue.html">9. Suggest an Issue</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../intermediate_tasks/update_readthedocs_files.html">10. Make a change to the documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../code_standards/javascript.html">11. Javascript Aims and Standards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../code_standards/markup.html">12. Markup Aims and Standards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../code_standards/python.html">13. Python Aims and Standards</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../specifications/core_app.html">14. Core App Specifications and List of Functionality</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. How to Contribute</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-the-work-will-be-divided">4.1. How the work will be divided</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#the-project-overall">5. The project overall</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#the-core-app">5.1. The Core App</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-claim-tasks-and-contribute-code">5.2. How to claim tasks and contribute code</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="how_to_review_a_pull_request.html">6. How to Review a Pull Request</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jargon.html">7. Jargon list</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licence.html">8. Licence for use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/make_change_to_a_file.html">9. Submit a change to the repository</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../beginner_tasks/suggest_an_issue.html">10. Suggest an Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intermediate_tasks/update_readthedocs_files.html">11. Make a change to the documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/javascript.html">12. Javascript Aims and Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/markup.html">13. Markup Aims and Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../code_standards/python.html">14. Python Aims and Standards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/core_app.html">15. Core App Specifications and List of Functionality</a></li>
 </ul>
 
             
@@ -160,8 +168,12 @@
             
   <div class="section" id="how-to-contribute">
 <h1>4. How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permalink to this headline">¶</a></h1>
-<p>h2 – How the work will be divided</p>
-<p>h3 – The project overall</p>
+<div class="section" id="how-the-work-will-be-divided">
+<h2>4.1. How the work will be divided<a class="headerlink" href="#how-the-work-will-be-divided" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="the-project-overall">
+<h1>5. The project overall<a class="headerlink" href="#the-project-overall" title="Permalink to this headline">¶</a></h1>
 <p>The project will comprise of one core application - a primary module - which can be supplemented by additional apps.</p>
 <p>The Core App should work independently of any additional modules. The additional modules will add functionality and should work independently of all other apps except the Core App.</p>
 <p>The additional modules may duplicate functionality or achieve the same functionality in a different way. For example:</p>
@@ -170,7 +182,8 @@
 <li>A module may be written to achieve a function in Windows. The module may be ‘forked’ to do the same thing on a Gnu/Linux distribution.</li>
 </ul>
 <p>Initially, we will focus on the Core App. Eventually, we hope contributors will be able to work on separate, compatible apps. When we are at that stage, we will decide whether those apps need their separate repository or can be integrated into the main one.</p>
-<p>h3 – The Core App</p>
+<div class="section" id="the-core-app">
+<h2>5.1. The Core App<a class="headerlink" href="#the-core-app" title="Permalink to this headline">¶</a></h2>
 <p>Development of the Core App will be divided into the following “work streams”:</p>
 <p><strong>Markup</strong>: This will focus on creating the HTML and CSS for the user interface.</p>
 <p><strong>Javascript</strong>: This will focus on adding any functionality to the user interface which is strictly not possible using HTML and CSS.</p>
@@ -183,7 +196,9 @@
 <p><strong>Documentation</strong>: This will focus on keeping the documentation up-to-date and easy to understand.</p>
 <p><strong>Security</strong>: This will look at every area of the application to try to improve its security.</p>
 <p>The Core App will have two main branches: <em>Master</em> and <em>Development</em>. Pull Requests should be made to the Development branch. Only once the admins are sure the development branch is in a stable state will the Development branch be merged into the Master branch - this will happen periodically.</p>
-<p>h2 – How to claim tasks and contribute code</p>
+</div>
+<div class="section" id="how-to-claim-tasks-and-contribute-code">
+<h2>5.2. How to claim tasks and contribute code<a class="headerlink" href="#how-to-claim-tasks-and-contribute-code" title="Permalink to this headline">¶</a></h2>
 <p><strong>How to claim tasks</strong></p>
 <p>The people leading the work streams will agree with the admins the specification for their stream. They will then divide up the work and submit an ‘Issue’ on Github.</p>
 <p>Issues will be added to the Projects page for that work stream. Each work stream will have the following columns:</p>
@@ -215,6 +230,7 @@
 <li><em>Close the branch</em>. Your task-specific branch should only last as long as it takes to deal with the task.</li>
 </ol>
 </div>
+</div>
 
 
            </div>
@@ -224,7 +240,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="how_to_review_a_pull_request.html" class="btn btn-neutral float-right" title="5. How to Review a Pull Request" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="how_to_review_a_pull_request.html" class="btn btn-neutral float-right" title="6. How to Review a Pull Request" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="dependencies.html" class="btn btn-neutral" title="3. Dependencies, tools and technologies we use" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

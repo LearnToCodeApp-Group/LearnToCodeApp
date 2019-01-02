@@ -1,9 +1,11 @@
 How to Contribute
 *****************
 
-h2 -- How the work will be divided
+How the work will be divided
+############################
 
-h3 -- The project overall
+The project overall
+*******************
 
 The project will comprise of one core application - a primary module - which can be supplemented by additional apps.
 
@@ -17,7 +19,8 @@ The additional modules may duplicate functionality or achieve the same functiona
 
 Initially, we will focus on the Core App. Eventually, we hope contributors will be able to work on separate, compatible apps. When we are at that stage, we will decide whether those apps need their separate repository or can be integrated into the main one.
 
-h3 -- The Core App
+The Core App
+############
 
 Development of the Core App will be divided into the following "work streams":
 
@@ -38,7 +41,8 @@ Development of the Core App will be divided into the following "work streams":
 
 The Core App will have two main branches: *Master* and *Development*. Pull Requests should be made to the Development branch. Only once the admins are sure the development branch is in a stable state will the Development branch be merged into the Master branch - this will happen periodically.
 
-h2 -- How to claim tasks and contribute code
+How to claim tasks and contribute code
+######################################
 
 **How to claim tasks**
 
