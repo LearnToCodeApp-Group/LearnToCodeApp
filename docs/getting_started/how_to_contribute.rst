@@ -4,8 +4,8 @@ How to Contribute
 How the work will be divided
 ############################
 
-The project overall
-*******************
+**The project overall**
+
 
 The project will comprise of one core application - a primary module - which can be supplemented by additional apps.
 
@@ -19,8 +19,8 @@ The additional modules may duplicate functionality or achieve the same functiona
 
 Initially, we will focus on the Core App. Eventually, we hope contributors will be able to work on separate, compatible apps. When we are at that stage, we will decide whether those apps need their separate repository or can be integrated into the main one.
 
-The Core App
-############
+**The Core App**
+
 
 Development of the Core App will be divided into the following "work streams":
 
