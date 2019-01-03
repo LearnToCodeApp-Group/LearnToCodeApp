@@ -49,6 +49,7 @@ If you would like to ask us to add a feature, change how the app works or give a
 * Sagar Chavan(git: sagarc03)(discord: light#5379)
 * Albin Warmlind (Niblet)
 * sshimanath (shimnut)
+* Rushik Subba (rand0mgam3r)
 
 **Licence**
 
