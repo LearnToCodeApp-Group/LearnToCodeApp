@@ -47,6 +47,7 @@ If you would like to ask us to add a feature, change how the app works or give a
 * Will Mason (Django Will)
 * sangar-happy (maRIne)
 * Sagar Chavan(git: sagarc03)(discord: light#5379)
+* Albin Warmlind (Niblet)
 * sshimanath (shimnut)
 
 **Licence**
