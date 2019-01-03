@@ -44,9 +44,9 @@ If you would like to ask us to add a feature, change how the app works or give a
 
 **Collaborators**
 
-*Will Mason (Django Will)
-*sangar-happy (maRIne)
-
+* Will Mason (Django Will)
+* sangar-happy (maRIne)
+* Sagar Chavan(git: sagarc03)(discord: light#5379)
 **Licence**
 
 Please read the associated licence file for the terms under which this project may be used and/or distributed.
