@@ -12,7 +12,7 @@ Administrators will base any decision to exclude a member of the group on this C
 
 Everyone has different opinions and attitudes; we are unlikely to agree on where "the line" is when it comes to offensive language. This is not a private group so please take care to minimise any offence your comments might cause. We do not intend to be censorious. We simply ask that you are considerate of other members.
 
-##Discrimination
+## Discrimination
 
 The group intends to create an equal opportunities collaboration environment.
 
@@ -30,7 +30,7 @@ Personal characteristics include:
 
 This list may be more extensive than those protected by law in your country. Regardless, this Code of Conduct will apply.
 
-##Standards
+## Standards
 
 
 
