@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f2f5f8;
+}
+
+#sideBar {
+  background: #35393f;
+  width: 220px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+#sideBar nav {
+  padding-top: 100px;
+}
+#sideBar nav a {
+  display: block;
+  color: #f2f5f8;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-weight: 300;
+  transition: all 0.4s ease-in-out;
+}
+#sideBar nav a:hover {
+  background: #2e3136;
+  padding: 15px 30px 15px 25px;
+}
+#sideBar nav a .fas {
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 0.8rem;
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  top: 2px;
+  text-align: center;
+}
+#sideBar nav a.active {
+  background: #2e3136;
+  border-left: 3px solid #1678ed;
+  padding: 15px 30px 15px 25px;
+}
+#sideBar nav a.active .fas {
+  color: #1678ed;
+}
+
+header {
+  position: absolute;
+  margin-left: 212px;
+  padding: 10px;
+  background: #35393f;
+  top: 0;
+  z-index: 0;
+  width: 1090px;
+}
+
+.searchBox {
+  display: inline-block;
+  padding-top: 7px;
+  width: 80%;
+}
+.searchBox .fas {
+  color: #fff;
+}
+.searchBox input {
+  background: #35393f;
+  border: none;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 10px;
+  font-weight: 200;
+  border-radius: 10px;
+  width: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.searchBox input:hover {
+  background: #2e3136;
+}
+
+.usrField {
+  float: right;
+  padding: 10px;
+}
+.usrField a {
+  padding-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  height: 30px;
+  color: #f2f5f8;
+}
+.usrField a.notifications {
+  position: relative;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.usrField a.notifications .notificationCircle {
+  display: inline-block;
+  background: red;
+  width: 15px;
+  border-radius: 50%;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: -3px;
+  left: 7px;
+  height: 15px;
+}
+.usrField a .usrPic {
+  background: url("https://discordapp.com/assets/1cbd08c76f8af6dddce02c5138971129.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: inline-block;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.usrField a .fa-sort-down {
+  position: relative;
+  top: -10px;
+  left: -10px;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+  background: #2e3136;
+}
+
+/*# sourceMappingURL=main.css.map */
