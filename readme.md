@@ -34,6 +34,38 @@ To speak to existing collaborators, please join the Discord conversation: https:
 * Sphinx documentation module
 * Readthedocs
 
+**Setting up virtual environment for Django and Sphinx**
+
+This project uses pipenv to manage it dependencies. To make sure the project runs smoothly on your local machine, be sure to execute the following commands in the terminal or powershell. These commands should work on all operating systems.
+
+* Install pipenv using pip (If you have a preferred method of installing python modules which differs from the method demonstrated below, feel free to use it.)
+
+```console
+$ pip install pipenv
+```
+
+* Go to the directory where you have cloned the repository, make sure the directory contains "Pipenv" and "Pipenv.lock" files, and run the command below. This command will install all the dependencies for the project.
+
+```console
+$ pipenv install
+```
+* Once you have completed install, you can start this virtual environment by using the command
+
+```console
+$ pipenv shell
+```
+* To exit
+
+```console
+$ exit
+```
+
+* If the feature you are working requires you to add a new dependency to the virtual environment, then use the following command to add the new package.
+```console
+$ pipenv install package-name
+```
+
+
 **Contributing**
 
 For technical details, please refer to our documentation: https://learntocodeapp.readthedocs.io/en/latest/. Before doing so, we recommend you read our Code of Conduct and make sure you agree with the terms of our licence.
